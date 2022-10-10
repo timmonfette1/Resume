@@ -1,7 +1,8 @@
 .header p {
   margin-top: 5px;
   margin-bottom: 0;
-  font-size: larger;
+  font-size: 1.3em;
+  font-family: Raleway, sans-serif;
   text-decoration: underline;
 }
 
