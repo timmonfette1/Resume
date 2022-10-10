@@ -1,0 +1,44 @@
+#root {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: justify;
+}
+
+button {
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+}
+
+.container h1 {
+  font-size: 1.5em;
+  line-height: 1.1;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container h2 {
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.content {
+  margin-bottom: 25px;
+}
+
+.content hr {
+  border: none;
+  background-color: var(--text-secondary);
+  height: 4px;
+  margin-bottom: 25px;
+}

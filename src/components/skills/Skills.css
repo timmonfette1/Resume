@@ -1,0 +1,11 @@
+.skills ul {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 14px;
+  list-style-type: square;
+}
+
+.skills li {
+  font-size: 0.95em;
+}

@@ -1,0 +1,13 @@
+.experience ul {
+  margin-top: 0;
+  margin-bottom: 20px;
+  list-style-type: square;
+}
+
+.experience li {
+  font-size: 0.95em;
+}
+
+.ul.no.margin {
+  margin-bottom: 0;
+}

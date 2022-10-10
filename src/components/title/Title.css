@@ -1,0 +1,35 @@
+.title {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title.primary {
+  flex: 0 1 auto;
+}
+
+.title.secondary {
+  flex: 0 1 auto;
+}
+
+.title.secondary h2 {
+  font-weight: lighter;
+}
+
+.title.tertiary {
+  flex-basis: 100%;
+}
+
+.title.tertiary h2 {
+  font-weight: lighter;
+}
+
+.title.timeframe {
+  flex-basis: 100%;
+}
+
+.title.timeframe h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 0.8333em;
+  color: var(--text-secondary);
+}

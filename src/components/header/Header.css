@@ -1,0 +1,17 @@
+.header p {
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: larger;
+  text-decoration: underline;
+}
+
+.icon.container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  column-gap: 5em;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+}
