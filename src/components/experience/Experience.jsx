@@ -2,6 +2,19 @@ import Section from "../section/Section";
 import Title from "../title/Title";
 import "./Experience.css";
 
+function VesonNautical() {
+  return (
+    <div>
+      <Title
+        primary="Veson Nautical"
+        secondary="Senior Software Engineer"
+        tertiary="Senior Software Engineer - Veson Nautical"
+        timeframe="NOVEMBER 2022 - CURRENT, BOSTON, MA (Remote)"
+      />
+    </div>
+  );
+}
+
 function COCC() {
   return (
     <div>
@@ -9,7 +22,7 @@ function COCC() {
         primary="COCC"
         secondary="Senior Software Engineer"
         tertiary="Senior Software Engineer - COCC"
-        timeframe="JUNE 2022 - CURRENT, Southington, CT"
+        timeframe="JUNE 2022 - NOVEMBER 2022, SOUTHINGTON, CT"
       />
       <ul>
         <li>
@@ -58,7 +71,7 @@ function Checkwriters() {
         primary="Checkwriters"
         secondary="Software Architect"
         tertiary="Lead Software Architect - Checkwriters"
-        timeframe="JANUARY 2020 - JUNE 2022, Northampton, MA"
+        timeframe="JANUARY 2020 - JUNE 2022, NORTHAMPTON, MA"
       />
       <ul>
         <li>Led a team of 6 developers on various projects.</li>
@@ -120,7 +133,7 @@ function Checkwriters() {
         primary="Checkwriters"
         secondary="Software Developer"
         tertiary="Software Developer - Checkwriters"
-        timeframe="OCTOBER 2017 - JANUARY 2020, Northampton, MA"
+        timeframe="OCTOBER 2017 - JANUARY 2020, NORTHAMPTON, MA"
       />
       <ul>
         <li>
@@ -215,6 +228,7 @@ function Comcast() {
 function Content() {
   return (
     <div>
+      <VesonNautical />
       <COCC />
       <Checkwriters />
       <Comcast />
